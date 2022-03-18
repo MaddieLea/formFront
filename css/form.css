@@ -29,16 +29,21 @@
     height: 35px;
     margin: 5px;
     border: 3px solid transparent;
-    padding: 3%;
+    padding: 6%;
     border-radius: 10px;
     background-color: rgb(174, 197, 243);
-    color: rgb(161, 238, 248);
-    caret-color: red;
+    color: rgb(34, 36, 36);
+    caret-color: rgb(0, 110, 255);
     outline: none;
 }
 
-.w-60:focus{
-    background-color: #8398d4;
+.w-60:focus{        
+    background-color: #9ca3fd;
+}
+.w-60:hover{        
+    background-color: #c2c6fd;
+    transition: all ease 1.5s;
+    filter: drop-shadow(0 0 0.75rem rgb(241, 106, 133));
 }
 
 .btn-send{
@@ -60,5 +65,9 @@
 }
 
 .btn-send:hover{
-    background-color: #00ab33;
+    background-color: #35fd71;
+    cursor: pointer;
+    transform: rotate(360deg);
+    transition:all ease-in-out 2.0s;
+    filter: drop-shadow(0 0 0.75rem rgb(241, 106, 133));
 }

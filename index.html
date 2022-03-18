@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Form</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css">]
     <link rel="stylesheet" href="./css/form.css">
 </head>
 <body>
+    <!--Div do formulário-->
     <div class="form-name"><p>Form</p></div>
 
     </div>
+    <!--A col-left é as entradas das esquerda, 
+        já o col-right da direita.-->
     <section class="container">
         <form action="#">
             <div class="col-left">
@@ -21,11 +24,11 @@
 
             <div class="col-right">
                 <label for="age" name="age">Idade:</label> <br />
-                <input type="text" id="age" class="w-60" /> <br />
+                <input type="number" minlength="12" maxlength="100" id="age" class="w-60" /> <br />
                 <label for="name" name="name">Profissão:</label> <br />
                 <input type="text" class="w-60" /> <br />
             </div>
-
+            <!--Essa div está movimentando o botão, -->
             <div  class="btn-move">
                 <button class="btn-send">Send...</button>
             </div>
