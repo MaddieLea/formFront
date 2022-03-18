@@ -1,0 +1,7 @@
+/* Aqui fica todos as folhas de estilo cascata. */
+
+/* Estilo do corpo da página.  */
+@import url('./css/style.css');
+
+/* Estilo do formulário */
+@import url('./css/form.css');
